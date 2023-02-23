@@ -1,0 +1,11 @@
+1. File name should be data.csv instead of dataa.csv
+2. Change IEnumerable type to List
+2. No need create ImportedObjects list with empty object;
+2. Check line is null,empty or whitespace
+3. Check values array index is exist
+4. Change importedObject.NumberOfChildren= 1+ importedObject.NumberOfChildren to importedObject.NumberOfChildren++;
+5. Check importedObject properties is null, empty or  whitespace
+6. Check ParentType is null, empty or  whitespace
+7. ImportedObject class doesn't need Name property because Base class have Name property
+8. Optimize code. We can add importedObjects to  list with one while operation . No need for operation
+9. Refactoring - using statements shold not be in namespace, classes move to Models folder.
